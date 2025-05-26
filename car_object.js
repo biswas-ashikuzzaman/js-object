@@ -33,9 +33,11 @@ const houseMessages = {
   goodbye: function () {
     console.log(this.good + " " + this.bye);
   }
+//   invite: function()
+//   console.log("Please come again Tomarrow");
 };
 houseMessages.welcome();       //  Welcome to your new home!
 houseMessages.rentDue();       // Your house rent is due...
 houseMessages.maintenance();   // Scheduled maintenance...
 houseMessages.goodbye();       //Thank you...
-
+// houseMessages.invite();

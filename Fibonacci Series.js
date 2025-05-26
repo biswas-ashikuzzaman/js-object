@@ -10,6 +10,6 @@ let input = prompt("Enter how many Fibonacci numbers you want:");
 let number = parseInt(input); // Convert string input to number
 let result = fiboNacci(number);
 console.log(result)
-document.write("Fibonacci Series: " + result.join(", "));
+document.write("Fibonacci Series: " + result.join(" ,"));
 // console.log(fiboNacci(10)) // Output to console
 // document.write("Fibonacci Series: " + fiboNacci(10).join(", "));   // Output to web page
